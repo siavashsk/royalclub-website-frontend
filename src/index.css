@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Noto Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8e8e8;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+@layer components {
+  .input {
+    @apply w-full bg-gray-200 border rounded-md border-gray-400 p-2 outline-none text-[0.9rem] font-semibold text-gray-700 transition-all;
+  }
+  .paginationArrow {
+    @apply w-10 h-10 text-center flex justify-center items-center select-none border-1 border-gray-400
+    rounded-md cursor-pointer hover:bg-gray-400 hover:border-none transition-all;
+  }
+  .active {
+    @apply text-white bg-indigo-500 rounded-md;
+  }
+}
