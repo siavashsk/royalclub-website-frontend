@@ -48,7 +48,7 @@ Admin panel provides a clean, friendly user interface and many various functiona
 - Delete users and user reviews
 - Add / delete admins (by having a super admin account)
 
-<img src="https://media.publit.io/file/Rec-0003.mp4" alt="admin panel overview GIF" width=80% height=auto>
+<img src="https://media.publit.io/file/royalclub.gif" alt="admin panel overview GIF" width=80% height=auto>
 
 
 ## 🚀 Setup
