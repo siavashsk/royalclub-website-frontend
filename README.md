@@ -21,17 +21,13 @@ This project is a fully responsive Modern Admin Panel application with customizi
 
 ## 🔥 Features
 
-Login with email
+Login with username
 View & Update Account
 View & Update User Info
 Add / Remove Multiple tickets
-Add / Remove item to Cart
 Add / Remove products as admin
-Add / Remove item to Wishlist
-Add comments to products
-Make Order / Online Payment
-View Orders History
-Fully Responsive – Digita is a fully responsive template and works perfectly on all screen sizes and mobile devices.
+View Transaction & Withdrawal History
+Fully Responsive – Royal Club is a fully responsive template and works perfectly on all screen sizes and mobile devices.
 
 ## Key Features Overview
 
@@ -41,14 +37,14 @@ Fully Responsive – Digita is a fully responsive template and works perfectly o
 
 Admin panel provides a clean, friendly user interface and many various functionalities including:
 
-- Add / delete/ edit products and articles
-- Manage all orders
-- Edit and update your account information
-- Add / delete / edit addresses
-- Delete users and user reviews
-- Add / delete admins (by having a super admin account)
+- Add / delete/ edit products
+- Manage all users
+- Edit and update user information
+- Add / delete Tournaments
+- Manage user info, logs and user tickets
+- Sort users by level, cup, coin, gem and etc...
 
-<img src="https://media.publit.io/file/royalclub.gif" alt="admin panel overview GIF" width=80% height=auto>
+<img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
 
 
 ## 🚀 Setup
