@@ -48,17 +48,17 @@ Admin panel provides a clean, friendly user interface and many various functiona
 - Delete users and user reviews
 - Add / delete admins (by having a super admin account)
 
-<img src="https://media.publit.io/file/admin-panel-overview.gif" alt="admin panel overview GIF" width=80% height=auto>
+<img src="https://media.publit.io/file/Rec-0003.mp4" alt="admin panel overview GIF" width=80% height=auto>
 
 
 ## 🚀 Setup
 
 Follow the following steps to get development environment running.
 
-- Clone _'digita-webshop-frontend.git'_ repository
+- Clone _'royalclub-website-frontend.git'_ repository
 
   ```bash
-  git clone https://github.com/digita-webshop/digita-webshop-frontend.git
+  git clone https://github.com/siavashsk/royalclub-website-frontend.git
   ```
 
 - Install dependencies
