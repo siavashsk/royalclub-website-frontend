@@ -1,3 +1,29 @@
+<div align='center'>
+
+[![Contributors](https://img.shields.io/github/contributors/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/network/members)
+[![Stargazers](https://img.shields.io/github/stars/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/stargazers)
+[![MIT License](https://img.shields.io/github/license/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/blob/master/LICENSE)
+
+</div>
+
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/">
+    <img src="https://res.cloudinary.com/da62uhu5i/image/upload/v1698126725/jmfesbpdpgkt6tfgg1ln.png" alt="Logo" width="100" height="100">
+  </a>
+
+  <h2 align="center">JusTalk Messenger</h3>
+
+  <p align="center">
+    Fast And Secure Messenger
+    <br />
+    <a href="royalclub-frontend.iran.liara.run/">View Demo</a>
+   
+  </p>
+</div>
+
 # Royal Club Game Panel
 
 > Panel application.
@@ -46,7 +72,6 @@ Admin panel provides a clean, friendly user interface and many various functiona
 
 <img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
 
-
 ## 🚀 Setup
 
 Follow the following steps to get development environment running.
@@ -70,36 +95,3 @@ Follow the following steps to get development environment running.
   ```
 
 ---
-
-## 🤝 Contributing
-
-The community is always looking for talented individuals to share their knowledge and creativity to build innovative projects that will change the world.
-
-Contributing to open source projects not only benefits the community, but it also helps you grow as a developer by learning new skills, collaborating with others, and gaining recognition for your contributions.
-
-We greatly appreciate any contribution you can make to our project. Whether it's a suggestion, bug report, or enhancement, your input is invaluable to us.
-
-
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Don't forget to give our project a star to show your support! We're excited to see what amazing features you'll bring to our project. Thank you for your contributions!
-
-## ✅ Project Status
-
-Project is: _complete_ .
-
-## 💬 Contact
-
-Created by [@siavashsk](https://github.com/siavashsk)
- <p>
-  if you need help, ask our. we will try to answer as soon as possible.
- </p>
-
-## 📝 License
-
-This project is open source and available under the [MIT License](https://github.com/siavashsk/royalclub-website-frontend/blob/main/LICENSE).
