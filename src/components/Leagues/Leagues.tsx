@@ -29,7 +29,7 @@ const Leagues = () => {
       <div className="flex flex-col gap-2 mt-12 mb-8">
         <Card className={`${sidenavTypes[sidenavType]}`}>
           <CardHeader title="Leagues" />
-          <CardBody className="">
+          <CardBody className="overflow-x-scroll md:overflow-x-hidden">
             <table className="w-full min-w-[640px] table-auto">
 
               <thead>

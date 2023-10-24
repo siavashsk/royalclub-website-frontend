@@ -103,7 +103,7 @@ const Users = () => {
       <Card className={`${sidenavTypes[sidenavType]}`}>
         <ToastContainer />
         <CardHeader title="Users" />
-        <CardBody>
+        <CardBody className="overflow-x-scroll md:overflow-x-hidden">
           <div className="mx-5">
             <UserHeader
               searchValue={searchValue} selectedType={selectedType}

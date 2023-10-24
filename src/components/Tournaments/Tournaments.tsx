@@ -64,7 +64,7 @@ const Tournaments = () => {
           <ToastContainer />
           <CardHeader title="Tournaments" />
           {isLoading ? <FetchLoading /> : null}
-          <CardBody className="">
+          <CardBody className="overflow-x-scroll md:overflow-x-hidden">
             {!isLoading && (
               <div className="flex lg:justify-end sm:justify-center lg:px-5 px-8">
                 <div className="pb-4">

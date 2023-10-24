@@ -14,7 +14,7 @@ const Withdrawal = () => {
     <div className="mt-12 mb-8 flex flex-col gap-12">
       <Card className={`${sidenavTypes[sidenavType]}`}>
         <CardHeader title="Withdrawal" />
-        <CardBody className="">
+        <CardBody className="overflow-x-scroll md:overflow-x-hidden">
           <table className="w-full min-w-[640px] table-auto">
 
             <thead>
