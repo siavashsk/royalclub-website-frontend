@@ -23,8 +23,14 @@
    
   </p>
 </div>
-<img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
 
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+<div align="center">
+  <img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
+</div>
 This project is a fully responsive Modern Admin Panel application with customizing feature. With Modern design, the ability to add and edit tickets for user on the admin panel, all advanced cart functionalities and many more features that you can see on the features section.
 
 ## 🔧 Technologies Used
@@ -62,8 +68,6 @@ Admin panel provides a clean, friendly user interface and many various functiona
 - Add / delete Tournaments
 - Manage user info, logs and user tickets
 - Sort users by level, cup, coin, gem and etc...
-
-
 
 ## 🚀 Setup
 
