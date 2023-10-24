@@ -1,9 +1,9 @@
 <div align='center'>
 
-[![Contributors](https://img.shields.io/github/contributors/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/graphs/contributors)
-[![Forks](https://img.shields.io/github/forks/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/network/members)
-[![Stargazers](https://img.shields.io/github/stars/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/stargazers)
-[![MIT License](https://img.shields.io/github/license/tohiidd/justalk-messenger.svg?style=for-the-badge)](https://github.com/tohiidd/justalk-messenger/blob/master/LICENSE)
+[![Contributors](https://img.shields.io/github/contributors/siavashsk/royalclub-website-frontend.svg?style=for-the-badge)](https://github.com/siavashsk/royalclub-website-frontend/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/siavashsk/royalclub-website-frontend.svg?style=for-the-badge)](https://github.com/tohiidd/royalclub-website-frontend/network/members)
+[![Stargazers](https://img.shields.io/github/stars/siavashsk/royalclub-website-frontend.svg?style=for-the-badge)](https://github.com/siavashsk/royalclub-website-frontend/stargazers)
+[![MIT License](https://img.shields.io/github/license/siavashsk/royalclub-website-frontend.svg?style=for-the-badge)](https://github.com/siavashsk/royalclub-website-frontend/blob/master/LICENSE)
 
 </div>
 
