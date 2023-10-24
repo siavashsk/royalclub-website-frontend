@@ -17,7 +17,7 @@
   <h2 align="center">Royal Club Panel</h3>
 
   <p align="center">
-    Fast And Secure Messenger
+    Fast And Secure Admin Panel
     <br />
     <a href="royalclub-frontend.iran.liara.run/">View Demo</a>
    
@@ -28,7 +28,7 @@
 
 ## About The Project
 
-<div align="center">
+<div align="center" style="margin-bottom: 1rem">
   <img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
 </div>
 
