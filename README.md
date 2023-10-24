@@ -28,7 +28,7 @@
 
 ## About The Project
 
-<div align="center" style="margin-bottom: 1rem">
+<div align="center">
   <img src="https://media.publit.io/file/royalclub1.gif" alt="admin panel overview GIF" width=80% height=auto>
 </div>
 
