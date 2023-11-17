@@ -19,7 +19,7 @@
   <p align="center">
     Fast And Secure Admin Panel
     <br />
-    <a href="royalclub-frontend.iran.liara.run/">View Demo</a>
+    <a href="royalclub.iran.liara.run/">View Demo</a>
    
   </p>
 </div>
