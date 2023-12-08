@@ -90,8 +90,8 @@ const Settings = () => {
               title="Profile Information"
               description=""
               details={{
-                "first name": "siavash khani", mobile: "+989017079374",
-                email: "siavash.khani200@gmail.com", location: "IRAN"
+                "first name": "Siavash khani", mobile: "+989017079374",
+                email: "siavashkhani.work@gmail.com", location: "Tehran - IRAN"
               }}
               action={
                 <Tooltip content="Edit Profile">
