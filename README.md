@@ -19,7 +19,7 @@
   <p align="center">
     Fast And Secure Admin Panel
     <br />
-    <a href="[royalclub.liara.run](https://royalclub.liara.run)/">View Demo</a>
+    <a href="https://royalclub.liara.run/">View Demo</a>
    
   </p>
 </div>
