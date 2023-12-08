@@ -10,22 +10,12 @@ const DashboardCharts = ({ data }: any) => {
         color="teal"
       />
       <StatisticsChart
-        title="Soccer Chart"
-        chart={data}
-        color="green"
-      />
-      <StatisticsChart
         title="Soccer Record Chart"
         chart={data}
         color="green"
       />
       <StatisticsChart
         title="Billiard Chart"
-        chart={data}
-        color="blue"
-      />
-      <StatisticsChart
-        title="Billiard Record Chart"
         chart={data}
         color="blue"
       />
