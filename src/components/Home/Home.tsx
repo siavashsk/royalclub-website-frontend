@@ -10,7 +10,7 @@ const Home = () => {
             <Typography
               variant="h3"
               color="white"
-              className="text-2xl md:text-3xl transition-all"
+              className="text-md md:text-lg lg:text-3xl transition-all"
             >
               Welcome To Royal Club Website
             </Typography>

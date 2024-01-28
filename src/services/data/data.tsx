@@ -29,7 +29,7 @@ export const leaguesData = [
     round: '3',
     status: 'Playing',
   }, {
-    id: 1,
+    id: 2,
     game: 'soccer',
     from: 'hosserinwolf',
     cost: '5900',
@@ -39,7 +39,7 @@ export const leaguesData = [
     round: '3',
     status: 'Playing',
   }, {
-    id: 1,
+    id: 3,
     game: 'billiard',
     from: 'omidZZ',
     cost: '1000',
@@ -58,6 +58,27 @@ export const leaguesData = [
     members: [{ id: 1, user_id: 'hero10', phone: '090107079355' }, { id: 2, user_id: 'david', phone: '090145479355' }, { id: 3, user_id: 'kali10', phone: '091007079355' }],
     round: '3',
     status: 'Finished',
+  },  {
+    id: 5,
+    game: 'soccer',
+    from: 'asghar',
+    cost: '4000',
+    capacity: '16',
+    typeOfCost: 'coin',
+    members: [{ id: 1, user_id: 'hero10', phone: '090107079355' }, { id: 2, user_id: 'david', phone: '090145479355' }, { id: 3, user_id: 'kali10', phone: '091007079355' }],
+    round: '3',
+    status: 'Finished',
+  },
+  {
+    id: 6,
+    game: 'billiard',
+    from: 'kazem',
+    cost: '8000',
+    capacity: '16',
+    typeOfCost: 'coin',
+    members: [{ id: 1, user_id: 'hero10', phone: '090107079355' }, { id: 2, user_id: 'david', phone: '090145479355' }, { id: 3, user_id: 'kali10', phone: '091007079355' }],
+    round: '3',
+    status: 'Playing',
   }
 ]
 
@@ -577,6 +598,16 @@ export const transactionsData = [
     status: "declined",
     createdAt: "2022/12/01",
   },
+  {
+    id: 6,
+    user_id: "Teddy",
+    amount: 12.3, 
+    phone: '09017888789',
+    type: "coin",
+    desc: 'this is a description',
+    status: "ok",
+    createdAt: "2022/12/01",
+  },
 ];
 
 
@@ -620,6 +651,30 @@ export const withdrawalData = [
     phone: '09017778789',
     status: "declined",
     createdAt: "2022/12/01",
+  },
+  {
+    id: 6,
+    user_id: "suzan",
+    amount: 700, 
+    phone: '09051178783',
+    status: "declined",
+    createdAt: "2022/10/02",
+  },
+  {
+    id: 7,
+    user_id: "Johnny",
+    amount: 600, 
+    phone: '09012348789',
+    status: "approved",
+    createdAt: "2023/03/01",
+  },
+  {
+    id: 8,
+    user_id: "Jimmy",
+    amount: 600, 
+    phone: '09382348700',
+    status: "approved",
+    createdAt: "2023/04/16",
   },
 ];
 
