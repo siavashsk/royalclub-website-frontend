@@ -16,17 +16,17 @@ const Notification = ({ id, title, desc, date }: Props) => {
   return (
     <div className="group px-3 py-4 bg-blue-gray-50 cursor-pointer border-1 rounded-sm border-gray-400" key={id}>
       <div className="flex flex-col gap-2">
-        <div className="flex justify-between ">
+        <div className="flex justify-between items-center">
           <div className="flex items-center gap-1">
             <GoPrimitiveDot size={20} color="darkred" />
             <Typography
               color={sidenavColor}
-              className="font-semibold"
+              className={`font-semibold sm:text-lg text-xs`}
             >
               {title}
             </Typography>
           </div>
-          <Typography className="text-xs sm:text-[14px] font-normal text-gray-600 transition-all">{date}</Typography>
+          <Typography className="text-[8px] sm:text-md font-normal text-gray-600 transition-all">{date}</Typography>
         </div>
         <Typography className="sm:text-sm text-[12px] font-light transition-all">{desc}</Typography>
       </div>
