@@ -7,7 +7,6 @@ import {
   Radio,
   Typography,
 } from "@material-tailwind/react";
-import { useMaterialTailwindController } from "context";
 import { useFormik } from "formik";
 import { ICreateModal } from "services/types/tournaments";
 import { postEndpoint } from "services/api/endpoints";
@@ -15,11 +14,13 @@ import { useSelector } from "react-redux";
 import { errorMessage, successMessage } from "services/utils/toastMessages";
 import { tournamentSchema } from "services/utils/formikSchema";
 import moment from "moment";
+import { sidenavTypes, useMaterialTailwindController } from "context";
 
 const CreateModal = ({ open, size, handleOpen }: ICreateModal) => {
   const [controller]: any = useMaterialTailwindController();
-  const { sidenavColor } = controller;
   const { token } = useSelector((state: any) => state.auth);
+  const { sidenavType, sidenavColor } = controller;
+
 
   async function onSubmit(values: any) {
     // getting the exact date and time
@@ -78,9 +79,9 @@ const CreateModal = ({ open, size, handleOpen }: ICreateModal) => {
   });
 
   return (
-    <Dialog open={open} size={size} handler={handleOpen}>
+    <Dialog open={open} size={size} handler={handleOpen} className={`${sidenavTypes[sidenavType]}`}>
       <DialogHeader>
-        <Typography className="p-2" variant="h4">Create Tournament</Typography>
+        <Typography className="p-2" variant="h4" color={sidenavType === "dark" ? 'white' : 'blue-gray'}>Create Tournament</Typography>
       </DialogHeader>
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col gap-3 mx-6">

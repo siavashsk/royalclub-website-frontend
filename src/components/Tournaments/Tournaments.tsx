@@ -12,15 +12,16 @@ import { useQuery } from "react-query";
 import FetchLoading from "components/UI/Loadings/FetchLoading";
 import { IFetch } from "services/types/queryFetch";
 import { tournamentsData } from "services/data/data";
+import { useMediaQuery } from "react-responsive";
 
 const Tournaments = () => {
   const { data, error, isLoading }: IFetch = useQuery({
     queryKey: ["Tournaments"],
     queryFn: () => fetchTournaments(),
   });
-  const { token } = useSelector((state: any) => state.auth);
   const [createModal, setCreateModal] = useState(false);
 
+  const isSm = useMediaQuery({ query: "(min-width: 700px)" });
   const [controller]: any = useMaterialTailwindController();
   const { sidenavColor, sidenavType } = controller;
 
@@ -105,7 +106,7 @@ const Tournaments = () => {
             </table>
           </CardBody>
           {createModal && (
-            <CreateModal open={createModal} size="lg" handleOpen={handleOpen} />
+            <CreateModal open={createModal} size={isSm ? "lg" : "xxl"} handleOpen={handleOpen} />
           )}
         </Card>
 

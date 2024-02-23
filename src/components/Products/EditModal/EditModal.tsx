@@ -8,13 +8,13 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { MdOutlineAddPhotoAlternate } from "react-icons/md";
-import { useMaterialTailwindController } from "context";
+import { sidenavTypes, useMaterialTailwindController } from "context";
 import { useFormik } from "formik";
 import { IEdit, IEditModal } from "services/types/product";
 
 const EditModal = ({ open, size, handleOpen, data }: IEditModal) => {
   const [controller]: any = useMaterialTailwindController();
-  const { sidenavColor } = controller;
+  const { sidenavType, sidenavColor } = controller;
 
   function onSubmit(values: IEdit) {
     const data = {
@@ -31,9 +31,9 @@ const EditModal = ({ open, size, handleOpen, data }: IEditModal) => {
     onSubmit,
   });
   return (
-    <Dialog open={open} size={size} handler={handleOpen} key={data.id}>
+    <Dialog open={open} size={size} handler={handleOpen} key={data.id} className={`${sidenavTypes[sidenavType]}`}>
       <DialogHeader>
-        <Typography className="p-2" variant="h4">Edit Product</Typography>
+        <Typography className="p-2" variant="h4" color={sidenavType === "dark" ? 'white' : 'blue-gray'}>Edit Product</Typography>
       </DialogHeader>
       <form onSubmit={handleSubmit}>
         <div className="flex justify-between flex-col md:flex-row gap-4 mx-6">

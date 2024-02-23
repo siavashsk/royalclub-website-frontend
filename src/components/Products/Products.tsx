@@ -10,10 +10,12 @@ import FetchLoading from "components/UI/Loadings/FetchLoading";
 import { IFetch } from "services/types/queryFetch";
 import { sidenavTypes, useMaterialTailwindController } from "context";
 import { specialProductsData } from "services/data/data";
+import { useMediaQuery } from "react-responsive";
 
 const Products = () => {
   const [controller]: any = useMaterialTailwindController();
   const { sidenavType } = controller;
+  const isSm = useMediaQuery({ query: "(min-width: 700px)" });
 
   const { token } = useSelector((state: any) => state.auth);
   const { data, error, isLoading }: IFetch = useQuery({
