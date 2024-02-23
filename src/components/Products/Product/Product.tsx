@@ -3,11 +3,13 @@ import { Button, Card, Chip } from "@material-tailwind/react";
 import { AiOutlineEdit } from "react-icons/ai";
 import { useMaterialTailwindController } from "context";
 import EditModal from "../EditModal/EditModal";
+import { useMediaQuery } from "react-responsive";
 
 const Product = ({ item }: any) => {
   const [detailModal, setDetailModal] = useState(false);
   const [controller]: any = useMaterialTailwindController();
   const { sidenavColor } = controller;
+  const isSm = useMediaQuery({ query: "(min-width: 700px)" });
 
   function handleOpen() {
     setDetailModal((prev) => !prev);
@@ -51,7 +53,7 @@ const Product = ({ item }: any) => {
       {detailModal && (
         <EditModal
           open={detailModal}
-          size="lg"
+          size={isSm ? "lg" : "xxl"}
           handleOpen={handleOpen}
           data={item}
         />
