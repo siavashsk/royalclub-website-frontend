@@ -48,10 +48,10 @@ const Products = () => {
       {error && <p className="text-red-600">Error has occured : {error}</p>}
 
       <div className="mt-12 mb-8 flex flex-col gap-2">
-        <Card className={`${sidenavTypes[sidenavType]}`}>
+        <Card className={`${sidenavTypes[sidenavType]} pb-6`}>
           <CardHeader title="Award Products" />
           {isLoading ? <FetchLoading /> : null}
-          {!isLoading && <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 3xl:grid-cols-5 gap-1 mx-auto">
+          {!isLoading && <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 1xl:grid-cols-3 2xl:grid-cols-4 3xl:grid-cols-5 gap-4 mx-auto">
             {currentProducts?.map((item: any) => (
               <Product item={item} />
             ))}

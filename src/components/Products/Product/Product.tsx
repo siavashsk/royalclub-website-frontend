@@ -15,7 +15,7 @@ const Product = ({ item }: any) => {
 
   return (
     <Card
-      className="w-[250px] h-[210px] shadow-lg mx-2 mb-4 bg-blue-gray-50"
+      className="sm:w-[250px] w-[96%] h-full shadow-lg mx-2 mb-4 bg-blue-gray-50"
       key={item.id}
     >
       <div className="w-full h-full rounded-t-lg">
@@ -29,7 +29,7 @@ const Product = ({ item }: any) => {
         <p>Type: {item.type}</p>
         <p>Value: {item.value}</p>
       </div>
-      <div className="text-center flex gap-1 m-3">
+      <div className="text-center flex justify-between m-3">
         <Chip
           color={item.active ? "green" : "red"}
           variant="gradient"
@@ -37,7 +37,7 @@ const Product = ({ item }: any) => {
           className="text-[10px]"
         />
         <Button
-          className="w-full flex justify-center gap-2"
+          className="min-w-[100px] flex justify-center gap-2"
           color={sidenavColor}
           variant="outlined"
           size="sm"
