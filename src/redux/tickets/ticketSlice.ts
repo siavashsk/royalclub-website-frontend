@@ -16,7 +16,7 @@ export const ticketSlice = createSlice({
   initialState,
   reducers: {
     add: (state, action) => {
-      const { delay, isExpired } = action.payload;
+      const { delay } = action.payload;
       state.delay = delay;
       state.isExpired = !!delay;
       Cookies.set("ticketExpTime", delay);

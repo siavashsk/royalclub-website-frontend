@@ -1,7 +1,6 @@
 import { Card, Typography, CardBody, Chip } from "@material-tailwind/react";
 import CardHeader from "components/UI/CardHeader";
 import { sidenavTypes, useMaterialTailwindController } from "context";
-import moment from "moment";
 import { withdrawalData as data } from "services/data/data";
 
 const Withdrawal = () => {

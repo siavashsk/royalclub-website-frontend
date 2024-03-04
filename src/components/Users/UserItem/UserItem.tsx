@@ -3,7 +3,7 @@ import { Avatar, Chip, IconButton, Tooltip, Typography } from "@material-tailwin
 import { BsGem } from "react-icons/bs";
 import { MdOutlinePostAdd } from "react-icons/md";
 import { Fragment, useState, lazy } from "react";
-import { sidenavTypes, useMaterialTailwindController } from "context";
+import { useMaterialTailwindController } from "context";
 import { IUserItem } from "services/types/user";
 import { TfiCup } from "react-icons/tfi";
 

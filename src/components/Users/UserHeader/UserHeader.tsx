@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Select, Option, Input, IconButton } from "@material-tailwind/react";
-import { sidenavTypes, useMaterialTailwindController } from "context";
+import {  useMaterialTailwindController } from "context";
 import { IHeader, SelectProps } from "services/types/user";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const UserHeader = ({ selectedType, selectedValue, setSearchValue, selectedTypeHandler, selectedValueHandler, setIsEmpty, data }: IHeader) => {
   const [controller]: any = useMaterialTailwindController();
-  const { sidenavColor, sidenavType } = controller;
+  const { sidenavColor } = controller;
   const [value, setValue] = useState("");
 
   function clickHandler() {

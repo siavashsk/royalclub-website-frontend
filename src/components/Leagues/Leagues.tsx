@@ -3,7 +3,6 @@ import { Card, CardBody, Typography } from "@material-tailwind/react";
 import CardHeader from "components/UI/CardHeader";
 import TableItem from "./TableItem/TableItem";
 import Pagination from "components/UI/Pagination";
-import FetchLoading from "components/UI/Loadings/FetchLoading";
 import { sidenavTypes, useMaterialTailwindController } from "context";
 import { leaguesData } from "services/data/data";
 

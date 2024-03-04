@@ -17,10 +17,8 @@ import { useNavigate } from "react-router-dom";
 import { successMessage } from "services/utils/toastMessages";
 import { loginSchema } from "../../services/utils/formikSchema";
 import Spinner from "../UI/Loadings/Spinner";
-import { login } from "redux/auth/authSlice";
 import "react-toastify/dist/ReactToastify.css";
 import { IValues } from "services/types/auth";
-import { loginPostEndpoint } from "services/api/endpoints";
 
 const Login = () => {
   const [showPass, setShowPass] = useState(false);

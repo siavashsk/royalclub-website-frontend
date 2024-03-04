@@ -1,27 +1,15 @@
 import { Button, Input } from "@material-tailwind/react";
 import { useMaterialTailwindController } from "context";
 import { Fragment, useState } from "react";
-import { useSelector } from "react-redux";
-import { putEndpoint } from "services/api/endpoints";
 
 const Modal = ({ setOpen, ticketId, user }: any) => {
   const [controller]: any = useMaterialTailwindController();
   const { sidenavColor } = controller;
   const [input, setInput] = useState();
-  const { token } = useSelector((state: any) => state.auth);
 
   function handleConfirm() {
     setOpen(false);
     console.log(input);
-  }
-
-  async function putTickets() {
-    putEndpoint(
-      `put-api/admin/user-ticket`,
-      token,
-      ticketId,
-      user.id.split(" ")
-    ).then(({ status }: any) => console.log(status));
   }
 
   return (

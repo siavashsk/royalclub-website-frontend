@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {
   Avatar,
-  Button,
   Card,
   CardBody,
   Switch,
