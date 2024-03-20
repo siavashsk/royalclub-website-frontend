@@ -50,7 +50,7 @@ export function MaterialTailwindControllerProvider({
 }: PropsWithChildren) {
   const initialState = {
     openSidenav: false,
-    sidenavColor: "indigo",
+    sidenavColor: "teal",
     sidenavType: "dark",
     transparentNavbar: true,
     fixedNavbar: false,

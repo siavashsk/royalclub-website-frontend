@@ -58,7 +58,7 @@ const Login = () => {
           <Card className="absolute top-2/4 left-2/4 w-full max-w-[24rem] -translate-y-2/4 -translate-x-2/4">
             <CardHeader
               variant="gradient"
-              color="indigo"
+              color="teal"
               className="mb-4 grid h-28 place-items-center"
             >
               <Typography variant="h3" color="white">
@@ -79,7 +79,7 @@ const Login = () => {
                 type="username"
                 label="Username"
                 size="lg"
-                color="indigo"
+                color="teal"
                 value={values.username}
                 onChange={handleChange}
               />
@@ -95,13 +95,13 @@ const Login = () => {
                   type={showPass ? "text" : "password"}
                   label="Password"
                   size="lg"
-                  color="indigo"
+                  color="teal"
                   value={values.password}
                   onChange={handleChange}
                 />
                 <div className="absolute inset-y-0 right-0 pr-2 flex items-center text-sm">
                   <IconButton
-                    color="indigo"
+                    color="teal"
                     variant="text"
                     size="sm"
                     onClick={() => setShowPass(!showPass)}
@@ -120,11 +120,11 @@ const Login = () => {
                 </p>
               )}
               <div className="-ml-2.5">
-                <Checkbox label="Remember Me" color="indigo" />
+                <Checkbox label="Remember Me" color="teal" />
               </div>
             </CardBody>
             <CardFooter className="pt-0">
-              <Button variant="gradient" color="indigo" fullWidth type="submit">
+              <Button variant="gradient" color="teal" fullWidth type="submit">
                 {isSubmitting ? <Spinner /> : "Login"}
               </Button>
             </CardFooter>
