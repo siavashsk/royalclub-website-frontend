@@ -2,6 +2,8 @@ import { useState } from "react";
 
 import { close, logo, menu } from "assets";
 import { navLinks } from "constants";
+import { Button } from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -24,7 +26,11 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-
+      <Link to="/login/admin">
+        <Button variant="gradient" color="teal" className="ml-8">
+          Login
+        </Button>
+      </Link>
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
