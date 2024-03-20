@@ -26,7 +26,7 @@ const NotFound = () => {
               src="/images/404/pose5.jpg" alt=""/>
           </div>
           <Link to="/">
-            <Button variant="gradient" size="lg" color="indigo">Back To Home</Button>
+            <Button variant="gradient" size="lg" color="teal">Back To Home</Button>
           </Link>
         </div>
       </div>

@@ -2,6 +2,7 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+
   theme: {
     screens: {
       sm: "480px",
@@ -23,6 +24,12 @@ module.exports = withMT({
       // => @media (min-width: 1536px) { ... }
     },
     extend: {
+      colors: {
+        primary: "#00040f",
+        secondary: "#00f6ff",
+        dimWhite: "rgba(255, 255, 255, 0.7)",
+        dimBlue: "rgba(9, 151, 124, 0.1)",
+      },
       borderWidth: {
         1: "1px",
         2: "2px",
