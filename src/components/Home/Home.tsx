@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
-      <div className="h-[100vh] bg-gradient-to-br from-teal-300 to-indigo-500">
+      <div className="h-[100vh] bg-gradient-to-br from-gray-800 to-gray-900">
         <div className="h-full flex items-center justify-center">
           <div className="flex w-[400px] h-[300px] flex-col justify-between items-center text-center">
             <Typography
@@ -14,7 +14,9 @@ const Home = () => {
             >
               Welcome To Royal Club Website
             </Typography>
-            <div style={{display: "flex", flexDirection: "column", gap: "1rem"}}>
+            <div
+              style={{ display: "flex", flexDirection: "column", gap: "1rem" }}
+            >
               <Link to="/login/admin">
                 <Button
                   color="indigo"
