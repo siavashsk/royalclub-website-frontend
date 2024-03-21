@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { FiLogIn } from "react-icons/fi";
 import { close, logo, menu } from "assets";
 import { navLinks } from "constants";
 import { Button } from "@material-tailwind/react";
@@ -11,7 +11,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+      <img src={logo} alt="hoobank" className="w-[40px] h-[40px]" />
+      <p className="hidden sm:flex text-white text-lg font-semibold ml-4">
+        RoyalBall
+      </p>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -27,11 +30,12 @@ const Navbar = () => {
         ))}
       </ul>
       <Link to="/login/admin">
-        <Button variant="gradient" color="teal" className="ml-8">
+        <Button variant="gradient" color="teal" className="flex items-center gap-2 ml-8">
+          <FiLogIn size={22} />
           Login
         </Button>
       </Link>
-      <div className="sm:hidden flex flex-1 justify-end items-center">
+      <div className="sm:hidden flex flex-1 justify-end items-center cursor-pointer">
         <img
           src={toggle ? close : menu}
           alt="menu"
@@ -42,9 +46,9 @@ const Navbar = () => {
         <div
           className={`${
             !toggle ? "hidden" : "flex"
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[160px] rounded-xl sidebar`}
         >
-          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+          <ul className="list-none bg-gray-800 rounded-lg flex items-start flex-1 flex-col p-4">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
