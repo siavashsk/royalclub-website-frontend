@@ -30,8 +30,12 @@ const Navbar = () => {
         ))}
       </ul>
       <Link to="/login/admin">
-        <Button variant="gradient" color="teal" className="flex items-center gap-2 ml-8">
-          <FiLogIn size={22} />
+        <Button
+          variant="gradient"
+          color="teal"
+          className="flex items-center gap-2 ml-8"
+        >
+          <FiLogIn size={20} className="hidden sm:flex" />
           Login
         </Button>
       </Link>
@@ -52,11 +56,12 @@ const Navbar = () => {
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
-                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                className={`flex items-center gap-2 font-poppins font-medium cursor-pointer text-[16px] ${
                   active === nav.title ? "text-white" : "text-dimWhite"
                 } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                 onClick={() => setActive(nav.title)}
               >
+                {nav.icon}
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}

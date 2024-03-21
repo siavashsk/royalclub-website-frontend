@@ -1,21 +1,42 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { FaHome, FaStar, FaUsers } from "react-icons/fa";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
+import { FiBox } from "react-icons/fi";
 
 export const navLinks = [
   {
     id: "home",
     title: "Home",
+    icon: <FaHome />,
   },
   {
     id: "features",
     title: "Features",
+    icon: <FaStar />,
   },
   {
     id: "product",
     title: "Product",
+    icon: <FiBox />,
   },
   {
     id: "clients",
     title: "Clients",
+    icon: <FaUsers />,
   },
 ];
 
