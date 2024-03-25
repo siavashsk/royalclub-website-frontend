@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, Card, Chip } from "@material-tailwind/react";
+import { Button, Card, CardHeader, Chip } from "@material-tailwind/react";
 import { AiOutlineEdit } from "react-icons/ai";
 import { useMaterialTailwindController } from "context";
 import EditModal from "../EditModal/EditModal";
@@ -17,16 +17,16 @@ const Product = ({ item }: any) => {
 
   return (
     <Card
-      className="sm:w-[250px] w-[96%] h-full shadow-lg mx-2 mb-4 bg-blue-gray-50"
+      className="sm:w-[280px] w-[96%] h-full shadow-lg mx-2 bg-blue-gray-50"
       key={item.id}
     >
-      <div className="w-full h-full rounded-t-lg">
+      <CardHeader className="relative h-54">
         <img
           src={`/images/products/awards/${item.image}.png`}
           alt="product"
           loading="lazy"
         />
-      </div>
+      </CardHeader>
       <div className="flex justify-between gap-1 mx-4 my-1 font-medium text-blue-gray-400 text-sm">
         <p>Type: {item.type}</p>
         <p>Value: {item.value}</p>
